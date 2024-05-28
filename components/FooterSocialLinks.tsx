@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 type SocialMediaLink = {
@@ -39,7 +40,7 @@ export default function FooterSocialLinks() {
     <div className="flex gap-3">
       {FooterSocialMediaLinks.map((link, index) => (
         <Link key={index} href={link.href} rel="noreferrer noopener">
-          <img className="h-full w-fit" src={link.src} alt={link.alt} />
+          <Image className="h-full w-fit" src={link.src} alt={link.alt} />
         </Link>
       ))}
     </div>
