@@ -1,6 +1,5 @@
 import { Manrope, Urbanist } from "next/font/google";
 
-import { ThemeProvider } from "@/components/theme-provider";
 
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";

@@ -7,7 +7,7 @@ import getCategories from "@/actions/get-categories";
 import Image from "next/image";
 import Button from "./ui/button";
 import Custom from "./custom";
-import { ModeToggle } from "./Modetoggle";
+
 
 import { UserButton, auth } from "@clerk/nextjs";
 
